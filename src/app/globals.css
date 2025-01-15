@@ -1,0 +1,36 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    
+    color: white; /* Ensure text is readable on a black background */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+  }
+  .font-greatvibes  {
+    font-family: 'Great Vibes', cursive;
+  }
+
+  .font-Miniver{
+     font-family: "Miniver";
+  }
+
+  /* styles/globals.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root, #__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex: 1;
+}
+  
+  
