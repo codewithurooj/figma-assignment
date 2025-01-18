@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Footer from './Footer';
 
@@ -11,7 +10,7 @@ const SupportPage: React.FC = () => {
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
               <span className='text-[#FF9F0D]'>St</span>ill You Need Our Support?
             </h1>
-            <p className="text-base sm:text-lg lg:text-xl text-white mt-2">Don't wait, make a smart and logical quote here. It's pretty easy.</p>
+            <p className="text-base sm:text-lg lg:text-xl text-white mt-2">Don&apos;t wait, make a smart and logical quote here. It&apos;s pretty easy.</p>
           </div>
           <div className="flex flex-col items-center md:items-end ">
             <div className="flex items-center w-full sm:w-auto ">
