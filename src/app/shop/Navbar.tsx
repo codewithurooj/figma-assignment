@@ -1,11 +1,13 @@
 "use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link'; // Import Link from next/link
 import { CiSearch } from 'react-icons/ci';
 import { LuUserRound } from "react-icons/lu";
 import { HiOutlineShoppingBag } from 'react-icons/hi';
 import { GiHamburgerMenu } from 'react-icons/gi';
-
+import SignUp from './SignUp';
+import SupportPage from '@/components/home/SupportPage';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,12 +26,24 @@ const Navbar: React.FC = () => {
           </h1>
         </div>
         <nav className="hidden md:flex space-x-8">
-          <a href="/" className="text-yellow-500">Home</a>
-          <a href="/menu" className="text-white">Menu</a>
-          <a href="/blog" className="text-white">Blog</a>
-          <a href="#" className="text-white">Pages</a>
-          <a href="/about" className="text-white">About</a>
-          <a href="/shop" className="text-white">Shop</a>
+          <Link href="/" passHref>
+            <a className="text-yellow-500">Home</a>
+          </Link>
+          <Link href="/menu" passHref>
+            <a className="text-white">Menu</a>
+          </Link>
+          <Link href="/blog" passHref>
+            <a className="text-white">Blog</a>
+          </Link>
+          <Link href="#" passHref>
+            <a className="text-white">Pages</a>
+          </Link>
+          <Link href="/about" passHref>
+            <a className="text-white">About</a>
+          </Link>
+          <Link href="/shop" passHref>
+            <a className="text-white">Shop</a>
+          </Link>
         </nav>
         <div className="hidden md:flex space-x-4">
           <CiSearch className='text-white' />
@@ -44,27 +58,48 @@ const Navbar: React.FC = () => {
       </header>
       {isOpen && (
         <nav className="md:hidden flex flex-col items-center space-y-4 bg-black w-full py-4">
-          <a href="/" className="text-yellow-500">Home</a>
-          <a href="/menu" className="text-white">Menu</a>
-          <a href="/blog" className="text-white">Blog</a>
-          <a href="#" className="text-white">Pages</a>
-          <a href="/about" className="text-white">About</a>
-          <a href="/shop" className="text-white">Shop</a>
+          <Link href="/" passHref>
+            <a className="text-yellow-500">Home</a>
+          </Link>
+          <Link href="/menu" passHref>
+            <a className="text-white">Menu</a>
+          </Link>
+          <Link href="/blog" passHref>
+            <a className="text-white">Blog</a>
+          </Link>
+          <Link href="#" passHref>
+            <a className="text-white">Pages</a>
+          </Link>
+          <Link href="/about" passHref>
+            <a className="text-white">About</a>
+          </Link>
+          <Link href="/shop" passHref>
+            <a className="text-white">Shop</a>
+          </Link>
         </nav>
       )}
       <main className="flex flex-col items-center w-full bg-white">
         <div className="relative w-full h-64">
           <Image src="/images/menu-hero.png" alt="Shop Image" layout="fill" objectFit="cover" />
           <div className="absolute inset-0 flex flex-col items-center justify-center">
-            <h2 className="text-4xl font-bold">Our Shop</h2>
+            <h2 className="text-2xl font-bold">Sign up Page</h2>
             <div className="flex space-x-2 mt-2">
-              <a href="#" className="text-white">Home</a>
-              <span className="text-white">></span>
-              <a href="#" className="text-yellow-500">Shop</a>
+              <Link href="/" passHref>
+                <a className="text-white">Home</a>
+              </Link>
+              <span className="text-white">&gt;</span>
+              <Link href="#" passHref>
+                <a className="text-yellow-500">Sign Up</a>
+              </Link>
             </div>
           </div>
         </div>
-        
+        <div className='mt-12'>
+          <SignUp />
+        </div>
+        <div className='mt-12'>
+          <SupportPage />
+        </div>
       </main>
     </div>
   );
