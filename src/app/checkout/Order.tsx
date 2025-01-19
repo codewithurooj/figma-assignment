@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Order from "./Order";
+
 
 const Checkout: React.FC = () => {
   const [city, setCity] = useState("");
