@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
           <div className="border-l-2 border-white h-24 mt-2"></div>
         </div>
         <div className="md:w-1/2 text-left mt-4 md:mt-0 flex flex-col items-center md:items-start">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-greatvibes text-[#FF9F0D] mb-1">It's Quick & Amazing!</h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-greatvibes text-[#FF9F0D] mb-1">It&apos;s Quick & Amazing!</h1>
           <h3 className="text-4xl sm:text-5xl lg:text-6xl text-white mb-1">
             <span className="text-[#FF9F0D]">Th</span>e Art of speed 
             <br />food Quality
