@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
             <h2 className="text-4xl font-bold">Our Menu</h2>
             <div className="flex space-x-2 mt-2">
               <a href="#" className="text-white">Home</a>
-              <span className="text-white">></span>
+              <span className="text-white">&gt;</span>
               <a href="#" className="text-yellow-500">Menu</a>
             </div>
           </div>
