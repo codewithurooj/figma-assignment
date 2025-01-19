@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+
 import { FaFacebookF, FaPinterest } from 'react-icons/fa';
 import { FaTwitter, FaYoutube } from 'react-icons/fa6';
 
