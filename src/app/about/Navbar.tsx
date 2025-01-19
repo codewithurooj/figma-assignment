@@ -25,22 +25,22 @@ const Navbar: React.FC = () => {
         </div>
         <nav className="hidden md:flex space-x-8">
           <Link href="/" passHref>
-            <a className="text-yellow-500">Home</a>
+            <span className="text-yellow-500">Home</span>
           </Link>
           <Link href="/menu" passHref>
-            <a className="text-white">Menu</a>
+            <span className="text-white">Menu</span>
           </Link>
           <Link href="/blog" passHref>
-            <a className="text-white">Blog</a>
+            <span className="text-white">Blog</span>
           </Link>
           <Link href="#" passHref>
-            <a className="text-white">Pages</a>
+            <span className="text-white">Pages</span>
           </Link>
           <Link href="/about" passHref>
-            <a className="text-white">About</a>
+            <span className="text-white">About</span>
           </Link>
           <Link href="/shop" passHref>
-            <a className="text-white">Shop</a>
+            <span className="text-white">Shop</span>
           </Link>
         </nav>
         <div className="hidden md:flex space-x-4">
@@ -57,22 +57,22 @@ const Navbar: React.FC = () => {
       {isOpen && (
         <nav className="md:hidden flex flex-col items-center space-y-4 bg-black w-full py-4">
           <Link href="/" passHref>
-            <a className="text-yellow-500">Home</a>
+            <span className="text-yellow-500">Home</span>
           </Link>
           <Link href="/menu" passHref>
-            <a className="text-white">Menu</a>
+            <span className="text-white">Menu</span>
           </Link>
           <Link href="/blog" passHref>
-            <a className="text-white">Blog</a>
+            <span className="text-white">Blog</span>
           </Link>
           <Link href="#" passHref>
-            <a className="text-white">Pages</a>
+            <span className="text-white">Pages</span>
           </Link>
           <Link href="/about" passHref>
-            <a className="text-white">About</a>
+            <span className="text-white">About</span>
           </Link>
           <Link href="/shop" passHref>
-            <a className="text-white">Shop</a>
+            <span className="text-white">Shop</span>
           </Link>
         </nav>
       )}
@@ -83,11 +83,11 @@ const Navbar: React.FC = () => {
             <h2 className="text-4xl font-bold">About Us</h2>
             <div className="flex space-x-2 mt-2">
               <Link href="/" passHref>
-                <a className="text-white">Home</a>
+                <span className="text-white">Home</span>
               </Link>
               <span className="text-white">&gt;</span>
               <Link href="#" passHref>
-                <a className="text-yellow-500">About</a>
+                <span className="text-yellow-500">About</span>
               </Link>
             </div>
           </div>
