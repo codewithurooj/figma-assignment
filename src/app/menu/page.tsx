@@ -4,7 +4,7 @@ import MainMenu from './MainMenu'
 import Dessert from './Dessert'
 import Drinks from './Drinks'
 import PartnersPage from './PartnerPage'
-import SupportPage from '@/components/home/SupportPage'
+
 
 function page() {
   return (
