@@ -6,7 +6,7 @@ import { CiSearch } from 'react-icons/ci';
 import { LuUserRound } from "react-icons/lu";
 import { HiOutlineShoppingBag } from 'react-icons/hi';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import SignUp from './SignUp';
+
 import SupportPage from '@/components/home/SupportPage';
 
 const Navbar: React.FC = () => {
@@ -94,9 +94,7 @@ const Navbar: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className='mt-12'>
-          <SignUp />
-        </div>
+        
         <div className='mt-12'>
           <SupportPage />
         </div>
