@@ -4,6 +4,10 @@ import React, { useState } from "react";
 const Checkout: React.FC = () => {
   const [city, setCity] = useState("");
 
+  const handleCityChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setCity(e.target.value);
+  };
+
   return (
     <div className="min-h-screen flex flex-col items-center 
             justify-center py-12 px-4 sm:px-6 lg:px-8">
@@ -45,6 +49,18 @@ const Checkout: React.FC = () => {
         <div className="flex justify-between font-semibold text-1xl text-[#333333]">
           <span>Total</span>
           <span>432.65$</span>
+        </div>
+        <div className="mt-4">
+          <label htmlFor="city" className="block text-sm font-medium text-gray-700">
+            City
+          </label>
+          <input
+            type="text"
+            id="city"
+            value={city}
+            onChange={handleCityChange}
+            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#FF9F0D] focus:border-[#FF9F0D] sm:text-sm"
+          />
         </div>
         <button className="mt-6 w-full py-2 px-4 bg-[#FF9F0D]
          text-white font-semibold rounded-md flex items-center justify-center">
