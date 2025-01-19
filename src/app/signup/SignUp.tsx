@@ -1,5 +1,5 @@
 import React from "react";
-import { CiLock } from "react-icons/ci";
+
 import { LuUserRound } from "react-icons/lu";
 import { MdLockOutline, MdOutlineEmail } from "react-icons/md";
 
