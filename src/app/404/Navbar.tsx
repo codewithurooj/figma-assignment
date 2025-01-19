@@ -5,6 +5,7 @@ import { CiSearch } from 'react-icons/ci';
 import { LuUserRound } from "react-icons/lu";
 import { HiOutlineShoppingBag } from 'react-icons/hi';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import Link from 'next/link';
 import Error404 from './Error';
 
 const Navbar: React.FC = () => {
@@ -24,12 +25,24 @@ const Navbar: React.FC = () => {
           </h1>
         </div>
         <nav className="hidden md:flex space-x-8">
-          <a href="/" className="text-yellow-500">Home</a>
-          <a href="/menu" className="text-white">Menu</a>
-          <a href="/blog" className="text-white">Blog</a>
-          <a href="#" className="text-white">Pages</a>
-          <a href="/about" className="text-white">About</a>
-          <a href="/shop" className="text-white">Shop</a>
+          <Link href="/" legacyBehavior>
+            <a className="text-yellow-500">Home</a>
+          </Link>
+          <Link href="/menu" legacyBehavior>
+            <a className="text-white">Menu</a>
+          </Link>
+          <Link href="/blog" legacyBehavior>
+            <a className="text-white">Blog</a>
+          </Link>
+          <Link href="#" legacyBehavior>
+            <a className="text-white">Pages</a>
+          </Link>
+          <Link href="/about" legacyBehavior>
+            <a className="text-white">About</a>
+          </Link>
+          <Link href="/shop" legacyBehavior>
+            <a className="text-white">Shop</a>
+          </Link>
         </nav>
         <div className="hidden md:flex space-x-4">
           <CiSearch className='text-white' />
@@ -44,12 +57,24 @@ const Navbar: React.FC = () => {
       </header>
       {isOpen && (
         <nav className="md:hidden flex flex-col items-center space-y-4 bg-black w-full py-4">
-          <a href="/" className="text-yellow-500">Home</a>
-          <a href="/menu" className="text-white">Menu</a>
-          <a href="/blog" className="text-white">Blog</a>
-          <a href="#" className="text-white">Pages</a>
-          <a href="/about" className="text-white">About</a>
-          <a href="/shop" className="text-white">Shop</a>
+          <Link href="/" legacyBehavior>
+            <a className="text-yellow-500">Home</a>
+          </Link>
+          <Link href="/menu" legacyBehavior>
+            <a className="text-white">Menu</a>
+          </Link>
+          <Link href="/blog" legacyBehavior>
+            <a className="text-white">Blog</a>
+          </Link>
+          <Link href="#" legacyBehavior>
+            <a className="text-white">Pages</a>
+          </Link>
+          <Link href="/about" legacyBehavior>
+            <a className="text-white">About</a>
+          </Link>
+          <Link href="/shop" legacyBehavior>
+            <a className="text-white">Shop</a>
+          </Link>
         </nav>
       )}
       <main className="flex flex-col items-center w-full bg-white">
@@ -58,9 +83,13 @@ const Navbar: React.FC = () => {
           <div className="absolute inset-0 flex flex-col items-center justify-center">
             <h2 className="text-4xl font-bold">404 Error</h2>
             <div className="flex space-x-2 mt-2">
-              <a href="#" className="text-white">Home</a>
+              <Link href="/" legacyBehavior>
+                <a className="text-white">Home</a>
+              </Link>
               <span className="text-white">&gt;</span>
-              <a href="#" className="text-yellow-500">404 </a>
+              <Link href="#" legacyBehavior>
+                <a className="text-yellow-500">404</a>
+              </Link>
             </div>
           </div>
         </div>
