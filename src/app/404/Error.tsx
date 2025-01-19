@@ -9,12 +9,11 @@ const Error404: React.FC = () => {
         Ooops! Looks like something went wrong
       </h2>
       <p className="text-sm md:text-sm lg:text-sm text-black mt-2 text-center">
-        Page cannot be found! We'll have it figured out in no time.<br />
+        Page cannot be found! We&apos;ll have it figured out in no time.<br />
         Meanwhile, check out these fresh ideas:
       </p>
       <Link href="/" legacyBehavior>
-        <a className="mt-6  px-4 py-2 md:px-6 md:py-3  md:mb-4 bg-[#FF9F0D]
-         text-white font-semibold rounded   lg:mb-0">
+        <a className="mt-6 px-4 py-2 md:px-6 md:py-3 md:mb-4 bg-[#FF9F0D] text-white font-semibold rounded lg:mb-0">
           Go to Home
         </a>
       </Link>
