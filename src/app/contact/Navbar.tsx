@@ -8,7 +8,6 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import SignIn from './SignIn';
 import SupportPage from '@/components/home/SupportPage';
 
-
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -61,7 +60,7 @@ const Navbar: React.FC = () => {
             <h2 className="text-3xl font-bold">Sign In Page</h2>
             <div className="flex space-x-2 mt-2">
               <a href="#" className="text-white">Home</a>
-              <span className="text-white">></span>
+              <span className="text-white">&gt;</span>
               <a href="#" className="text-yellow-500">Sign In</a>
             </div>
           </div>
