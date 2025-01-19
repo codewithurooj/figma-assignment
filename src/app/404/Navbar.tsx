@@ -7,8 +7,6 @@ import { HiOutlineShoppingBag } from 'react-icons/hi';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import Error404 from './Error';
 
-
-
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -61,7 +59,7 @@ const Navbar: React.FC = () => {
             <h2 className="text-4xl font-bold">404 Error</h2>
             <div className="flex space-x-2 mt-2">
               <a href="#" className="text-white">Home</a>
-              <span className="text-white">></span>
+              <span className="text-white">&gt;</span>
               <a href="#" className="text-yellow-500">404 </a>
             </div>
           </div>
