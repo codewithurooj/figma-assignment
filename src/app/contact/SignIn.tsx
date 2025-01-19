@@ -1,16 +1,12 @@
 import React from "react";
-import { CiLock } from "react-icons/ci";
-import { LuUserRound } from "react-icons/lu";
 import { MdLockOutline, MdOutlineEmail } from "react-icons/md";
 
 const SignIn: React.FC = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <div className="bg-white shadow-lg shadow-pink-200 p-8
-       rounded-lg max-w-md w-full">
+      <div className="bg-white shadow-lg shadow-pink-200 p-8 rounded-lg max-w-md w-full">
         <h2 className="text-2xl font-bold text-black mb-6">Sign In</h2>
         <form className="space-y-4">
-          
           <div className="flex items-center border border-gray-300 p-2 rounded">
             <MdOutlineEmail className="text-[#333333] mr-2 w-6 h-6" />
             <input
