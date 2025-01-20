@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
         <div className="relative w-full h-64">
           <Image src="/images/menu-hero.png" alt="Shop Image" layout="fill" objectFit="cover" />
           <div className="absolute inset-0 flex flex-col items-center justify-center">
-            <h2 className="text-4xl font-bold">Our Chef</h2>
+            <h2 className="text-4xl font-bold">Our Menu</h2>
             <div className="flex space-x-2 mt-2">
               <span className="text-white">Home</span>
               <span className="text-white">&gt;</span>
