@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
             <h2 className="text-2xl font-bold">Sign up Page</h2>
             <div className="flex space-x-2 mt-2">
               <span className="text-white">Home</span>
-              <span className="text-white">></span>
+              <span className="text-white">&gt;</span>
               <span className="text-yellow-500">Sign Up</span>
             </div>
           </div>
