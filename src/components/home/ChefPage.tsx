@@ -7,9 +7,9 @@ import Image from 'next/image';
 const ChefsPage: React.FC = () => {
   const chefs = [
     { imageSrc: '/images/ChefCard-1.png', name: 'Chef 1', position: 'Head Chef' },
-    { imageSrc: '/images/Chefcard-2.png', name: 'Chef 2', position: 'Sous Chef' },
+    { imageSrc: '/images/ChefCard-2.png', name: 'Chef 2', position: 'Sous Chef' },
     { imageSrc: '/images/ChefCard-3.png', name: 'Chef 3', position: 'Pastry Chef' },
-    { imageSrc: '/images/Chefcard-4.png', name: 'Chef 4', position: 'Line Cook' },
+    { imageSrc: '/images/ChefCard-4.png', name: 'Chef 4', position: 'Line Cook' },
   ];
 
   return (
