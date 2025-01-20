@@ -8,7 +8,6 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import SignUp from './SignUp';
 import SupportPage from '@/components/home/SupportPage';
 
-
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -26,12 +25,12 @@ const Navbar: React.FC = () => {
           </h1>
         </div>
         <nav className="hidden md:flex space-x-8">
-          <a href="/" className="text-yellow-500">Home</a>
-          <a href="/menu" className="text-white">Menu</a>
-          <a href="/blog" className="text-white">Blog</a>
-          <a href="#" className="text-white">Pages</a>
-          <a href="/about" className="text-white">About</a>
-          <a href="/shop" className="text-white">Shop</a>
+          <span className="text-yellow-500">Home</span>
+          <span className="text-white">Menu</span>
+          <span className="text-white">Blog</span>
+          <span className="text-white">Pages</span>
+          <span className="text-white">About</span>
+          <span className="text-white">Shop</span>
         </nav>
         <div className="hidden md:flex space-x-4">
           <CiSearch className='text-white' />
@@ -46,12 +45,12 @@ const Navbar: React.FC = () => {
       </header>
       {isOpen && (
         <nav className="md:hidden flex flex-col items-center space-y-4 bg-black w-full py-4">
-          <a href="/" className="text-yellow-500">Home</a>
-          <a href="/menu" className="text-white">Menu</a>
-          <a href="/blog" className="text-white">Blog</a>
-          <a href="#" className="text-white">Pages</a>
-          <a href="/about" className="text-white">About</a>
-          <a href="/shop" className="text-white">Shop</a>
+          <span className="text-yellow-500">Home</span>
+          <span className="text-white">Menu</span>
+          <span className="text-white">Blog</span>
+          <span className="text-white">Pages</span>
+          <span className="text-white">About</span>
+          <span className="text-white">Shop</span>
         </nav>
       )}
       <main className="flex flex-col items-center w-full bg-white">
@@ -60,9 +59,9 @@ const Navbar: React.FC = () => {
           <div className="absolute inset-0 flex flex-col items-center justify-center">
             <h2 className="text-2xl font-bold">Sign up Page</h2>
             <div className="flex space-x-2 mt-2">
-              <a href="#" className="text-white">Home</a>
+              <span className="text-white">Home</span>
               <span className="text-white">></span>
-              <a href="#" className="text-yellow-500">Sign Up</a>
+              <span className="text-yellow-500">Sign Up</span>
             </div>
           </div>
         </div>
