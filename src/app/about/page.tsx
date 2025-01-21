@@ -4,6 +4,8 @@ import AboutPage from './AboutPage'
 import ChooseUs from './ChooseUs'
 import TeamMember from './TeamMember'
 import Testinomial from '@/components/home/Testinomial'
+import FoodMenu from './FoodMenu'
+import SupportPage from '@/components/home/SupportPage'
 
 
 function page() {
@@ -13,7 +15,10 @@ function page() {
       <AboutPage/>
       <ChooseUs/>
       <TeamMember/>
-      <Testinomial/>
+       <div className='mt-36'><FoodMenu/></div>
+  
+       <div className='mt-36'><Testinomial/></div>
+       <SupportPage/>
     </div>
   )
 }
