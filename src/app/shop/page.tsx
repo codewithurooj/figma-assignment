@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Shop from './Shop'
+import SupportPage from '@/components/home/SupportPage'
+
 
 
 
@@ -9,6 +11,7 @@ function page() {
     <div>
       <Navbar/>
       <Shop/>
+      <SupportPage/>
       
     </div>
   )
