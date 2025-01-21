@@ -11,13 +11,13 @@ const ChooseUs: React.FC = () => {
         className="w-full h-auto object-cover mb-4" />
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center mb-4 md:mb-0">
-            <img src="/images/student.png" alt="Left Image" 
+            <img src="/images/Student.png" alt="Left Image" 
             className="w-[80px] h-[80px] object-cover mb-2 mx-auto" />
             <h2 className="text-2xl md:text-2xl font-bold">Best Chef</h2>
             <p className="text-sm md:text-xs mt-2">Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit.</p>
           </div>
           <div className="text-center mb-4 md:mb-0 mx-0 md:mx-4">
-            <img src="/images/coffee (1).png" alt="Center Image" 
+            <img src="/images/Coffee (1).png" alt="Center Image" 
             className="w-[80px] h-[80px] object-cover mb-2 mx-auto" />
             <h2 className="text-2xl md:text-2xl font-bold">120 Item food</h2>
             <p className="text-sm md:text-xs mt-2">Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit. Quispe</p>
