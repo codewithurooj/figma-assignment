@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Image from 'next/image';
 import { FaFacebookF, FaPinterest } from 'react-icons/fa';
 import { FaTwitter, FaYoutube } from 'react-icons/fa6';
 
 const TeamMember: React.FC = () => {
   return (
-    <div className="bg-white py-8 hidden md:hidden">
+    <div className="bg-white py-8">
       <div
         className="relative bg-cover bg-center h-[300px] w-full mt-6"
         style={{ backgroundImage: "url('/images/about-background.png')" }}
