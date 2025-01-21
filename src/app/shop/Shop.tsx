@@ -27,79 +27,79 @@ const Shop: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="p-2 text-center">
-              <img src="/images/product-1.png" alt="Product 1" className="w-full
+              <img src="/images/Product-1.png" alt="Product 1" className="w-full
                h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">Fresh Lime</h3>
               <p className="text-gray-500">$38.00 <span className="line-through">$45.00</span></p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-2.png" alt="Product 2" 
+              <img src="/images/Product-2.png" alt="Product 2" 
               className="w-full h-48 object-cover mb-2 "  />
               <h3 className="text-lg font-bold">Country Burger</h3>
               <p className="text-gray-500">$45.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-3.png" alt="Product 3" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-3.png" alt="Product 3" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">Cheese Butter</h3>
               <p className="text-gray-500">$10.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-4.png" alt="Product 4" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-4.png" alt="Product 4" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">Chocolate Muffin</h3>
               <p className="text-gray-500">$28.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-5.png" alt="Product 5" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-5.png" alt="Product 5" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">Drink</h3>
               <p className="text-gray-500">$15.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-6.png" alt="Product 6" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-6.png" alt="Product 6" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">Sandwiches</h3>
               <p className="text-gray-500">$20.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-7.png" alt="Product 7" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-7.png" alt="Product 7" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">Burger</h3>
               <p className="text-gray-500">$25.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-8.png" alt="Product 8" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-8.png" alt="Product 8" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">Pizza</h3>
               <p className="text-gray-500">$30.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-9.png" alt="Product 9" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-9.png" alt="Product 9" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">Chicken Chup</h3>
               <p className="text-gray-500">$35.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-4.png" alt="Product 10" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-4.png" alt="Product 10" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">Spicy Vegan Potato Curry</h3>
               <p className="text-gray-500">$40.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-5.png" alt="Product 11" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-5.png" alt="Product 11" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">Grilled Chicken Salad</h3>
               <p className="text-gray-500">$22.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-6.png" alt="Product 12" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-6.png" alt="Product 12" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">Fruit Salad</h3>
               <p className="text-gray-500">$18.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-7.png" alt="Product 13" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-7.png" alt="Product 13" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">New Product 1</h3>
               <p className="text-gray-500">$50.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-8.png" alt="Product 14" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-8.png" alt="Product 14" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">New Product 2</h3>
               <p className="text-gray-500">$55.00</p>
             </div>
             <div className="p-2 text-center">
-              <img src="/images/product-9.png" alt="Product 15" className="w-full h-48 object-cover mb-2" />
+              <img src="/images/Product-9.png" alt="Product 15" className="w-full h-48 object-cover mb-2" />
               <h3 className="text-lg font-bold">New Product 3</h3>
               <p className="text-gray-500">$60.00</p>
             </div>
