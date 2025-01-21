@@ -18,7 +18,7 @@ const AboutPage: React.FC = () => {
               className="w-[200px] h-[200px] object-cover"
             />
             <img
-              src="/images/product-1.png"
+              src="/images/Product-1.png"
               alt="Small Image 2"
               className="w-[200px] h-[200px] object-cover"
             />
