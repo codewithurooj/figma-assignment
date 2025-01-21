@@ -45,7 +45,7 @@ const AboutPage: React.FC = () => {
             </button>
             <div className="flex items-center ml-0 md:ml-4 mt-4 md:mt-0">
               <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center">
-                <img src="/images/play.png" alt="Icon" className="w-6 h-6" />
+                <img src="/images/Play.png" alt="Icon" className="w-6 h-6" />
               </div>
               <span className="ml-2 text-gray-700">Watch Video</span>
             </div>
