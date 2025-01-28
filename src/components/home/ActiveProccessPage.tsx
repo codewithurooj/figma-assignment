@@ -35,7 +35,7 @@ const ActiveProcessPage: React.FC = () => {
             />
             <div className="absolute inset-0 flex justify-center items-center">
               <Image 
-                src="/images/play.png" 
+                src="/images/Play.png" 
                 alt="Inner Image"
                 width={20}
                 height={20}
