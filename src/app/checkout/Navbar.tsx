@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link'; // Import Link from next/link
 import { CiSearch } from 'react-icons/ci';
 import { LuUserRound } from "react-icons/lu";
 import { HiOutlineShoppingBag } from 'react-icons/hi';
@@ -23,12 +24,24 @@ const Navbar: React.FC = () => {
           </h1>
         </div>
         <nav className="hidden md:flex space-x-8">
-          <span className="text-yellow-500">Home</span>
-          <span className="text-white">Menu</span>
-          <span className="text-white">Blog</span>
-          <span className="text-white">Pages</span>
-          <span className="text-white">About</span>
-          <span className="text-white">Shop</span>
+          <Link href="/" passHref>
+            <span className="text-yellow-500">Home</span>
+          </Link>
+          <Link href="/menu" passHref>
+            <span className="text-white">Menu</span>
+          </Link>
+          <Link href="/blog" passHref>
+            <span className="text-white">Blog</span>
+          </Link>
+          <Link href="#" passHref>
+            <span className="text-white">Pages</span>
+          </Link>
+          <Link href="/about" passHref>
+            <span className="text-white">About</span>
+          </Link>
+          <Link href="/shop" passHref>
+            <span className="text-white">Shop</span>
+          </Link>
         </nav>
         <div className="hidden md:flex space-x-4">
           <CiSearch className='text-white' />
@@ -43,23 +56,39 @@ const Navbar: React.FC = () => {
       </header>
       {isOpen && (
         <nav className="md:hidden flex flex-col items-center space-y-4 bg-black w-full py-4">
-          <span className="text-yellow-500">Home</span>
-          <span className="text-white">Menu</span>
-          <span className="text-white">Blog</span>
-          <span className="text-white">Pages</span>
-          <span className="text-white">About</span>
-          <span className="text-white">Shop</span>
+          <Link href="/" passHref>
+            <span className="text-yellow-500">Home</span>
+          </Link>
+          <Link href="/menu" passHref>
+            <span className="text-white">Menu</span>
+          </Link>
+          <Link href="/blog" passHref>
+            <span className="text-white">Blog</span>
+          </Link>
+          <Link href="#" passHref>
+            <span className="text-white">Pages</span>
+          </Link>
+          <Link href="/about" passHref>
+            <span className="text-white">About</span>
+          </Link>
+          <Link href="/shop" passHref>
+            <span className="text-white">Shop</span>
+          </Link>
         </nav>
       )}
       <main className="flex flex-col items-center w-full bg-white">
         <div className="relative w-full h-64">
           <Image src="/images/menu-hero.png" alt="Shop Image" layout="fill" objectFit="cover" />
           <div className="absolute inset-0 flex flex-col items-center justify-center">
-            <h2 className="text-4xl font-bold">Our Chef</h2>
+            <h2 className="text-4xl font-bold">Checkout Page</h2>
             <div className="flex space-x-2 mt-2">
-              <span className="text-white">Home</span>
+              <Link href="/" passHref>
+                <span className="text-white">Home</span>
+              </Link>
               <span className="text-white">&gt;</span>
-              <span className="text-yellow-500">checkout</span>
+              <Link href="#" passHref>
+                <span className="text-yellow-500">Checkout</span>
+              </Link>
             </div>
           </div>
         </div>
