@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog" className="block px-4 py-2 hover:bg-gray-200">
+                    <Link href="#" className="block px-4 py-2 hover:bg-gray-200">
                       Blog
                     </Link>
                   </li>
