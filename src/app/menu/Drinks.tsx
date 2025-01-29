@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const MainMenu: React.FC = () => {
+const Drinks: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-white text-black">
       <main className="flex flex-col items-center w-full">
@@ -55,4 +55,4 @@ const MainMenu: React.FC = () => {
   );
 };
 
-export default MainMenu;
+export default Drinks;
